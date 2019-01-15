@@ -19,7 +19,7 @@ public:
         return res;
     }
 };
-
+    
 // There's a typical DP solution with O(N^2) Time and O(N) space 
 // DP[i] means the result ends at i
 // So for dp[i], dp[i] is max(dp[j]+1), for all j < i and nums[j] < nums[i]
